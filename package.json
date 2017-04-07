@@ -1,7 +1,6 @@
 {
-  "name": "ionic-man",
+  "name": "cnode-club-ionic2",
   "author": "hao5743@163.com",
-  "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -40,5 +39,5 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
-  "description": "IonicMan: An awesome ionicina club app"
+  "description": "cnode-club-ionic2"
 }

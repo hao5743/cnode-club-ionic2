@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicchina.ionicman5743" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>ionic-man</name>
-    <description>An awesome Ionichina client app.</description>
+<widget id="com.ionicframework.cnodeclubionic2come" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>cnode-club-ionic2</name>
+    <description>A cnode club app.</description>
     <author email="hao5743@163.com" href="https://hao5743.github.io/">chongshao</author>
     <content src="index.html" />
     <access origin="*" />
