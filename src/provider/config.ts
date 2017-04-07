@@ -1,11 +1,10 @@
 import {Injectable} from '@angular/core';
 import {UserInterface} from "../interface/index";
 
-
 @Injectable()
 export class Config {
 
-      static readonly  hostURL = 'https://cnodejs.org/api/v1';     //http请求前缀
+    static readonly  hostURL = 'https://cnodejs.org/api/v1';     //http请求前缀
     // static readonly  hostURL = 'http://ionichina.com/api/v1';
     // static readonly  hostURL = 'http://localhost:8100/api';
     static readonly  isIonic = true;
