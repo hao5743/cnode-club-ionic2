@@ -2,8 +2,9 @@
 -----
 作者：hao5743@163.com
 
-使用angular2+typescript+ionic2开发的一个ionichina社区客户端，支持android和ios，欢迎提出bug,改进建议到邮箱。
-如果对你有用的话，请给个star鼓励吧。开源地址[https://github.com/hao5743/cnode-club-ionic2.git](https://github.com/hao5743/cnode-club-ionic2.git)
+使用angular2+typescript+ionic2开发的cnode社区客户端，支持android和ios，欢迎提出bug,改进建议到邮箱。
+
+如果对你有用的话，请给个star O(∩_∩)O~。开源地址[https://github.com/hao5743/cnode-club-ionic2.git](https://github.com/hao5743/cnode-club-ionic2.git)
 
 ## 基本功能
 * 话题列表、详情
@@ -70,20 +71,13 @@ Xcode version: Xcode 8.2.1 Build version 8C1002
 
  话题列表
 
- ![topiclist.jpeg](http://r.ionichina.com/FvFmGVovEkeHneHnJDnfBH4T644k)
+ ![topiclist.jpeg](http://ol1ftyec4.bkt.clouddn.com/cnode-main.JPG)
 
  话题详情
 
- ![topic.jpeg](http://r.ionichina.com/FjqutCvpECKDry69XNby48krFjxc) 
+ ![topic.jpeg](http://ol1ftyec4.bkt.clouddn.com/cnode-topic.JPG) 
 
  回复
 
- ![reply.jpeg](http://r.ionichina.com/FqovFQLA0mgZbojSThihbBpfVzVA)
-
- 个人信息
-
- ![me.jpeg](http://r.ionichina.com/FpP7WOB7c0iqyHm16Piog6MEKpwc)
-
- 话题
+ ![reply.jpeg](http://ol1ftyec4.bkt.clouddn.com/cnode-reply.JPG)
  
- ![topic2.png](http://r.ionichina.com/FisbmPOTahqdAI1jDhyKIpR7Zsw_)
