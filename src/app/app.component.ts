@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 import { TabsPage } from '../page/tabs/tabs';
 import { Config, Local, Constants } from '../provider/index'
 
@@ -11,6 +12,8 @@ import { Config, Local, Constants } from '../provider/index'
 export class MyApp {
     rootPage = TabsPage;
     constructor(platform: Platform,
+                public statusBar: StatusBar,
+                public splashScreen: SplashScreen,
         private local: Local) {
         platform.ready().then(() => {
             console.log('device ready');
@@ -19,14 +22,14 @@ export class MyApp {
     }
 
     initApp() {
-        StatusBar.styleDefault();
+        this.statusBar.styleDefault();
         this.checkIsLogin();
         this.hideSplashScreen();
     }
 
     hideSplashScreen() {
         setTimeout(() => {
-            Splashscreen.hide();
+            this.splashScreen.hide();
         }, 200);
     }
 

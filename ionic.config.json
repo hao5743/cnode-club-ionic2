@@ -1,6 +1,9 @@
+
 {
-  "name": "cnode-club-ionic2",
-  "app_id": "",
-  "v2": true,
-  "typescript": true
+    "name": "cnode-club-ionic2",
+    "app_id": "",
+    "type": "ionic-angular",
+    "integrations": {
+        "cordova": {}
+    }
 }
